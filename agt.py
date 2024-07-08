@@ -8,6 +8,17 @@ from gtts import gTTS
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
+# Enable dark mode
+st.markdown("<style>body {background-color: #212121;}</style>", unsafe_allow_html=True)
+
+# Custom CSS to hide the Streamlit menu and footer
+hide_menu_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 # Function to generate and play text-to-speech audio
