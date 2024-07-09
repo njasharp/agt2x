@@ -175,6 +175,7 @@ if st.sidebar.button("Reset"):
 
 # Main content
 st.image("pic1.PNG", width=150)
+st.image("pbar2.gif", width=150)
 st.markdown('<h1 style="color:#00FF00;">Double AGENT 2x </h1>', unsafe_allow_html=True)
 
 st.write("Enter a system prompt (optional) and a user role (optional) in the sidebar, then click 'Submit' to get a response from the LLM.")
