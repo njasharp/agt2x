@@ -59,13 +59,13 @@ st.sidebar.write('You selected:', sidebar_option)
 # Select model to start sidebar
 model_option_1 = st.sidebar.selectbox(
     "Select a 1st LLM model",
-    ('Model A - llama3-8b-8192', 'Model B - llama3-70b-8192')
+    ('Model A - llama-3.1-8b-instant', 'Model B - llama-3.1-70b-versatile')
 )
 st.sidebar.write('You selected 1st:', model_option_1)
 
 model_option_2 = st.sidebar.selectbox(
     "Select a 2nd LLM model",
-    ('Model A - llama3-8b-8192', 'Model B - llama3-70b-8192')
+    ('Model A - llama-3.1-8b-instant', 'Model B - llama-3.1-70b-versatile')
 )
 st.sidebar.write('You selected 2nd:', model_option_2)
 
